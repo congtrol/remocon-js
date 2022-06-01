@@ -1,0 +1,39 @@
+{
+  "name": "remocon",
+  "version": "0.0.1",
+  "description": "websocket client",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./dist/remocon.cjs"
+  },
+  "browser": "./dist/remocon.min.js",
+  "browser_esm": "./dist/remocon.esm.js",
+  "cjs": "./dist/remocon.cjs",
+  "esm": "./dist/remocon.mjs",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congtrol/remocon-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/congtrol/remocon-js/issues"
+  },
+  "homepage": "https://github.com/congtrol/remocon-js#readme",
+  "engines": {
+    "node": ">=15.2.0"
+  },
+  "author": "Lee Dong Eun <sixgen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "^4.0.7",
+    "meta-buffer-pack": "^1.1.4",
+    "ws": "^8.6.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.9"
+  }
+
+}

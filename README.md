@@ -1,2 +1,4 @@
-# remocon-js
-websocket client
+# remocon
+
+websocket client  beta.
+
