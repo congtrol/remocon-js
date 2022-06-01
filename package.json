@@ -1,6 +1,6 @@
 {
   "name": "remocon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "websocket client",
   "type": "module",
   "main": "./dist/remocon.cjs",
