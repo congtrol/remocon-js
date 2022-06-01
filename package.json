@@ -3,9 +3,9 @@
   "version": "0.0.3",
   "description": "websocket client",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/remocon.cjs",
   "exports": {
-    "import": "./src/index.js",
+    "import": "./dist/remocon.mjs",
     "require": "./dist/remocon.cjs"
   },
   "browser": "./dist/remocon.min.js",
