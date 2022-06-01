@@ -1,6 +1,6 @@
 {
   "name": "remocon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "websocket client",
   "type": "module",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "browser_esm": "./dist/remocon.esm.js",
   "cjs": "./dist/remocon.cjs",
   "esm": "./dist/remocon.mjs",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/congtrol/remocon-js.git"
@@ -35,5 +34,4 @@
     "bufferutil": "^4.0.6",
     "utf-8-validate": "^5.0.9"
   }
-
 }
