@@ -1,4 +1,5 @@
 # remocon
 
-websocket client  beta.
+- websocket client
+- In development
 
